@@ -1,48 +1,60 @@
-# Music Industry Capstone: Fair Artist Discovery & Recommendation System
+# Fair Artist Discovery & Recommendation System
 
-## Overall project goal
+## Executive project summary
 
-Develop an end-to-end recommendation and discovery pipeline for a music streaming platform that maximizes listener engagement while explicitly reducing popularity bias and improving exposure for underrepresented artists.
+This project addresses a strategic business problem in the modern music ecosystem: recommendation systems often amplify mainstream artists and suppress long-tail, independent, and emerging creators. In a streaming environment, that creates two major issues:
 
-## Why this is the right capstone
+- listeners experience narrower, less diverse discovery; and
+- artists without strong existing traction receive less visibility and lower opportunity for growth.
 
-The research document highlights several major industry issues:
+The project proposes and implements a fairness-aware recommendation and discovery model that balances user engagement with artist diversity, long-tail exposure, and trustworthiness.
 
-- popularity bias in recommendation loops;
-- suppression of niche and long-tail artists;
-- filter-bubble behavior that narrows musical exploration;
-- need for fairness-aware ranking and explainability.
+## Why this matters
 
-These are not theoretical concerns—they directly affect platform performance, artist economics, and consumer satisfaction.
+Platforms with recommendation systems are not merely ranking songs; they are shaping the market. When popularity bias is left unchecked, the platform reinforces existing winners instead of discovering new talent. This creates several downstream problems:
 
-## Weekly artifact flow
+- reduced artist diversity and reduced cultural variety;
+- lower discovery of emerging creators;
+- fewer opportunities for niche genres and local scenes;
+- brand risk as customers and artists question whether the platform is fair.
 
-Week 1: data profile + environment readiness
-Week 2: cleaned music metadata and listening dataset
-Week 3: database schema + SQL queries
-Week 4: wrangled dataset + quality report
-Week 5: descriptive statistics and fairness baselines
-Week 6: experiment design + A/B test plan
-Week 7: visualization dashboard + stakeholder insights
+## Project objective
+
+Build an end-to-end, portfolio-ready music intelligence system that:
+
+- understands artist and listener behavior;
+- identifies underrepresented music segments;
+- recommends music using fairness-aware ranking logic;
+- presents insight in a format suitable for executive review.
+
+## Workstream flow
+
+Week 1: define the capstone and environment
+Week 2: clean music and artist data
+Week 3: model and query structured music data
+Week 4: data wrangling and quality report
+Week 5: fairness statistics and concentration analysis
+Week 6: experimental design plan
+Week 7: visualization dashboard
 Week 8: popularity regression model
-Week 9: EDA report + discovery gap analysis
-Week 10: artist/track classification model
-Week 11: scikit-learn recommendation pipeline
-Week 12: fair ranking prototype
-Week 13: deep learning / embeddings for artist similarity
-Week 14: exploration-exploitation recommendation strategy
-Week 15: model deployment readiness and monitoring plan
-Week 16: executive presentation and final portfolio notebook
+Week 9: EDA and discovery gap report
+Week 10: audience-fit classification
+Week 11: model comparison and fairness evaluation
+Week 12: recommendation ranking prototype
+Week 13: deep learning and embeddings
+Week 14: exploration-exploitation strategy
+Week 15: deployment and monitoring plan
+Week 16: final presentation and capstone narrative
 
-## Final capstone deliverables
+## Business value
 
-- executive summary deck;
-- reproducible ML notebook or pipeline;
-- dataset documentation and data dictionary;
-- fairness and engagement metrics dashboard;
-- model artifact and deployment notes;
-- final recommendation strategy summary.
+This approach creates value across multiple stakeholder groups:
 
-## Example final business thesis
+- Product: better discovery and retention outcomes
+- Artists: more equitable exposure opportunities
+- Data science: a valid end-to-end AI/ML workflow
+- Leadership: a strong business case grounded in measurable outcomes
 
-"By balancing listener personalization with fairness-aware exploration, the platform can improve discovery of underrepresented artists without materially harming engagement, creating a healthier and more resilient music ecosystem."
+## Final portfolio-ready result
+
+The final project can be presented as a realistic case study in music-tech strategy and AI operations. It demonstrates that a streaming platform can be both commercially effective and ethically grounded.
